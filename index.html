@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deshani's Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5fdaab92aa.js" crossorigin="anonymous"></script>
+ </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images\logo1.png" class="logo">
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-xmark" onclick="closemenu()"></i>
+            </ul>   
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><span class="auto-type"></span></p>
+            <h1>Hello, I'm <span>Deshani Wijewardhana</span><br>From Sri Lanka.</h1>
+           
+        </div>
+    </div>       
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/main.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me!</span></h1>
+                <p>I'm an Undergradute at SLTC Research University pursuing a degree in Data Science. With a passion for exploring and analyzing complex data sets.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Soft Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+            <div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Logo Designing</span><br>Lettermarks, Abstract logos, Mascot logoS and Combination logos.</li>
+                        <li><span>Art</span><br>Pencil sketch, Mandala Art, Digital art</li>
+                        <li><span>Web Designing</span><br>Design a website (HTML, CSS, JavaScript)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020-2022</span><br>Online Business</li>
+                        <li><span>2022</span><br>Analyzing</li>
+                        <li><span>2018</span><br>Drawing and Painting</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Undergradute at SLTC Research University</span><br>Bsc. (Hons) Information Technology in Data Science.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>Services!</span></h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Personal website designing.</p>
+          </div>  
+          <div>
+            <i class="fas fa-paint-brush" aria-hidden="true"></i>
+            <h2>Art</h2>
+            <p>Sketching pencil art and Digital or Sketch Mandala Art</p>
+          </div>  
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Logo Design</h2>
+            <p>Lettermarks, Abstract logos, Mascot logoS and Combination logos designing.</p>
+          </div>  
+        </div>
+    </div>
+</div>
+<!-- ---------------------portfolio Mywork---------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My <span>work!</span></h1>
+        <div class="work-list">
+            <div class="work">
+                 <img src="images/logo-design.jpg">
+                 <div class="layer">
+                    <h3>Logo Design</h3>
+                    <p>Company or Business logos and Personal logos design as you want.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+            </div>
+        <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>Design personal websites.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+        </div>
+        <div class="work">
+            <img src="images/sketch.jpg">
+            <div class="layer">
+                <h3>Sketch Art</h3>
+                <p>Sketching cartoon and Mandala Art</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+       </div>
+    </div>   
+    <a href="#" class="btn">See more</a>
+</div>
+
+<!----------------------contact----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span>Me!</span></h1>
+                <p><i class="fa-regular fa-envelope"></i>deshanih321@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100082150997512&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/deshani_wijewardhana?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/deshanihw"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.linkedin.com/in/deshani-hansika-05a60a270/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="C:\Users\DESHANI\Documents\CV.pdf" download class="btn btn2"><span>Download CV</span></a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="message"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Deshani | Made By Deshani Wijewardhana <i class="fa-solid fa-head-side-headphones"></i></p>
+    </div>
+</div>
+
+<!---------------------- java script---------------------->
+<script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+        var type = new Typed(".auto-type",{
+            strings : ["Welcome To My Website!"],
+            typeSpeed : 150,
+            backSpeed : 150,
+            looped : true,
+        })
+    </script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+</script>
+
+<script>
+var sidemeu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+</script>
+
+<script>
+    const scriptURL = 'paste googlesheet link here'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""   
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
